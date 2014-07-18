@@ -1,0 +1,264 @@
+{
+	"magicWord" : "Crestron",
+	"zones" : [
+		{
+			"spokenWord" : "Living",
+			"description" : "Living Room",
+			"transmission" : [],
+			"specialCodes" : [],
+			"services" : [
+				{
+					"spokenWord" : "Cable",
+					"description" : "Cable",
+					"transmission" : ["105", "71"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Apple",
+					"description" : "Apple TV",
+					"transmission" : ["105", "73"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Music",
+					"description" : "FM Radio",
+					"transmission" : ["105", "81"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Power",
+					"description" : "Off",
+					"transmission" : ["105", "33"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Mute",
+					"description" : "Mute",
+					"transmission" : ["105", "32"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Channel",
+					"description" : "Channel",
+					"transmission" : ["105"],
+					"specialCodes" : [
+						{
+							"code" : "#|##|###",
+							"map" :
+							{
+								"0" : "1412",
+								"1" : "1403",
+								"2" : "1404",
+								"3" : "1405",
+								"4" : "1406",
+								"5" : "1407",
+								"6" : "1408",
+								"7" : "1409",
+								"8" : "1410",
+								"9" : "1411",
+							},
+							"extraTransmission" : [],
+							"services" : []
+						}					
+					],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Tune",
+					"description" : "Station",
+					"transmission" : ["105"],
+					"specialCodes" : [
+						{
+							"code" : "###|####",
+							"map" :
+							{
+								"0" : "210",
+								"1" : "201",
+								"2" : "202",
+								"3" : "203",
+								"4" : "204",
+								"5" : "205",
+								"6" : "206",
+								"7" : "207",
+								"8" : "208",
+								"9" : "209",
+							},
+							"extraTransmission" : ["224"],
+							"services" : []
+						}					
+					],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Volume",
+					"description" : "Volume",
+					"transmission" : ["105"],
+					"specialCodes" : [],
+					"services" : [
+						{
+							"spokenWord" : "Up",
+							"description" : "Up",
+							"transmission" : ["30"],
+							"specialCodes" : [],
+							"services" : [],
+							"allowedMultiplesIdentifier" : "VolumeControl"
+						},
+						{
+							"spokenWord" : "Down",
+							"description" : "Down",
+							"transmission" : ["31"],
+							"specialCodes" : [],
+							"services" : [],
+							"allowedMultiplesIdentifier" : "VolumeControl"
+						}
+					]
+				},
+				{
+					"spokenWord" : "Left",
+					"description" : "L",
+					"transmission" : ["105", "1393"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Right",
+					"description" : "R",
+					"transmission" : ["105", "1394"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Up",
+					"description" : "U",
+					"transmission" : ["105", "1391"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Down",
+					"description" : "D",
+					"transmission" : ["105", "1392"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Enter",
+					"description" : "Enter",
+					"transmission" : ["105", "1395"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Return",
+					"description" : "Menu",
+					"transmission" : ["105", "1396"],
+					"specialCodes" : [],
+					"services" : [],
+					"allowedMultiplesIdentifier" : "AppleTVControl"
+				},
+				{
+					"spokenWord" : "Surf",
+					"description" : "Surf",
+					"transmission" : ["105"],
+					"specialCodes" : [],
+					"services" : [
+						{
+							"spokenWord" : "Up",
+							"description" : "Up",
+							"transmission" : ["30"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Down",
+							"description" : "Down",
+							"transmission" : ["31"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Stop",
+							"description" : "Stop",
+							"transmission" : ["1402"],
+							"specialCodes" : [],
+							"services" : []
+						}
+					]
+				},
+				{
+					"spokenWord" : "Scan",
+					"description" : "Scan",
+					"transmission" : ["105"],
+					"specialCodes" : [],
+					"services" : [
+						{
+							"spokenWord" : "Up",
+							"description" : "Up",
+							"transmission" : ["1391"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Down",
+							"description" : "Down",
+							"transmission" : ["1392"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Left",
+							"description" : "Left",
+							"transmission" : ["1393"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Right",
+							"description" : "Right",
+							"transmission" : ["1394"],
+							"specialCodes" : [],
+							"services" : [],
+							"recur" : {"recurrenceInterval" : 1}
+						},
+						{
+							"spokenWord" : "Stop",
+							"description" : "Stop",
+							"transmission" : [],
+							"specialCodes" : [],
+							"services" : []
+						}
+					]
+				},
+				{
+					"spokenWord" : "Last",
+					"description" : "Last Channel",
+					"transmission" : ["105", "1420"],
+					"specialCodes" : [],
+					"services" : []
+				},
+				{
+					"spokenWord" : "Info",
+					"description" : "Info",
+					"transmission" : ["105", "1428", "1428", "delay_5", "1431", "1430", "delay_5", "1402"],
+					"specialCodes" : [],
+					"services" : []
+				}
+			]
+		}
+	]
+}
